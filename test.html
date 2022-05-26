@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Start Template</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+				content="width=1440, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#eb6246">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+				rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" href="libs/simplebar/simplebar.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.css"/>
+</head>
+
+<body>
+
+<header>
+	<a href="#" class="page_name">This is page name
+		<div class="icon">
+			<img src="img/page_name.svg" alt="">
+		</div>
+	</a>
+
+	<nav class="top_menu">
+		<a href="#success" class="item_menu open-popup-link">Save</a>
+		<a href="#warning" class="item_menu open-popup-link">Save As</a>
+		<a href="#form_modal" class="item_menu open-popup-link">
+			<span class="icon">
+				<img src="img/undo.svg" alt="">
+			</span>
+			Undo
+		</a>
+		<a href="#" class="item_menu">
+			<span class="icon">
+				<img src="img/redo.svg" alt="">
+			</span>
+			Redo
+		</a>
+		<button class="item_menu nesting">
+			<span class="icon">
+				<img src="img/add.svg" alt="">
+			</span>
+			Add
+			<ul class="sub_menu">
+				<li>
+					<a href="#" class="item">Text</a>
+				</li>
+				<li>
+					<a href="#" class="item">Image</a>
+				</li>
+				<li>
+					<a href="#" class="item">Clipart</a>
+				</li>
+				<li>
+					<a href="#" class="item">Shape</a>
+				</li>
+			</ul>
+		</button>
+	</nav>
+</header>
+
+<style>
+	.s_box {
+		margin: 50px 0;
+	}
+</style>
+
+<main>
+	<section class="hero">
+		<div class="container">
+			<section class="s_box">
+				<h2 class="title_h2">Input def</h2>
+				<input type="text" class="input_def datepicker_new" placeholder="text text text text">
+			</section>
+			<section class="s_box">
+				<h2 class="title_h2">Mask input</h2>
+				<input type="text" class="input_def money" placeholder="text text text text">
+			</section>
+			<section class="s_box">
+				<h2 class="title_h2">fancybox 3</h2>
+				<div class="row">
+					<div class="col-6">
+						<a href="https://upload.wikimedia.org/wikipedia/commons/8/80/140-P1020281_-_Flickr_-_Laurie_Nature_Bee.jpg"
+							 data-fancybox="images" data-caption="My caption">
+							<img
+								src="https://upload.wikimedia.org/wikipedia/commons/8/80/140-P1020281_-_Flickr_-_Laurie_Nature_Bee.jpg"
+								alt=""/>
+						</a>
+					</div>
+					<div class="col-6">
+						<a href="https://upload.wikimedia.org/wikipedia/commons/8/80/140-P1020281_-_Flickr_-_Laurie_Nature_Bee.jpg"
+							 data-fancybox="images" data-caption="My caption">
+							<img
+								src="https://upload.wikimedia.org/wikipedia/commons/8/80/140-P1020281_-_Flickr_-_Laurie_Nature_Bee.jpg"
+								alt=""/>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="s_box">
+				<h2 class="title_h2">Swiper standart</h2>
+				<div class="swiper-container slider_1_css slider_1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="pagination pagination_1"></div>
+				</div>
+			</section>
+			<section class="s_box">
+				<h2 class="title_h2">Swiper overflow + custom pagination</h2>
+				<div class="swiper-container slider_2_css slider_2_1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="s_box">
+				<h2 class="title_h2">Swiper overflow + custom pagination_2</h2>
+				<div class="swiper-container slider_2_css slider_3_1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="module__reviews"></div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="s_box">
+				<h2 class="title_h2">Popup + swiper</h2>
+				<a href="#test-popup" class="open-popup-link">Show inline popup</a>
+			</section>
+			<section class="s_box">
+				<h2 class="title_h2">Стилизованный скролл</h2>
+				<div class="scroll_box">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur consequatur eligendi eveniet
+						excepturi expedita ipsa laborum necessitatibus obcaecati odit perspiciatis quaerat quia, repellendus saepe
+						sint vitae voluptate. Accusantium, beatae doloribus ducimus, expedita illo iure minus nulla numquam qui quo
+						quos sed unde. A adipisci alias amet assumenda dolorem doloremque doloribus ex explicabo facere, facilis
+						fuga
+						id iste, itaque iure labore natus nihil nulla odit perspiciatis possimus quis recusandae reprehenderit sed
+						suscipit tenetur, vitae voluptatibus voluptatum! Ad aspernatur autem consequuntur esse facere fuga incidunt
+						nam neque obcaecati odio officia perferendis, quibusdam recusandae reiciendis repudiandae tempore temporibus
+						veritatis. Alias animi aspernatur, at omnis perferendis quisquam repudiandae? Doloremque dolorum illo ipsa
+						iusto laboriosam porro similique veritatis. Corporis exercitationem hic itaque molestias quas. Assumenda,
+						dicta libero molestiae perferendis quam rem repellendus sapiente vel veritatis! Adipisci assumenda culpa
+						sunt
+						vel. Cumque debitis ipsa maiores sint voluptate. Ab at delectus ea excepturi explicabo neque officia,
+						perspiciatis porro quasi ratione recusandae ullam voluptatibus, voluptatum! A amet aperiam architecto
+						deleniti
+						deserunt doloremque exercitationem minus nam quo? A at culpa excepturi facere non odit quod saepe tenetur.
+						Accusantium beatae culpa, dolore est exercitationem explicabo illo, iste labore nihil omnis placeat
+						praesentium recusandae sed sit sunt. Aspernatur delectus, obcaecati.</p>
+				</div>
+			</section>
+			<section class="s_box">
+				<h2 class="title_h2">Form Wizard</h2>
+				<div class="step-app" id="demo">
+					<ul class="step-steps">
+						<li data-step-target="step1">Step 1</li>
+						<li data-step-target="step2">Step 2</li>
+						<li data-step-target="step3">Step 3</li>
+					</ul>
+					<div class="step-content">
+						<div class="step-tab-panel" data-step="step1">
+							Step 1
+						</div>
+						<div class="step-tab-panel" data-step="step2">
+							Step 2
+						</div>
+						<div class="step-tab-panel" data-step="step3">
+							Step 3
+						</div>
+					</div>
+					<div class="step-footer">
+						<button data-step-action="prev" class="step-btn">Previous</button>
+						<button data-step-action="next" class="step-btn">Next</button>
+						<button data-step-action="finish" class="step-btn">Finish</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+</main>
+
+<footer class="clearfix">
+	<div class="timeline">
+		<div class="scroll_box scroll_box_f">
+			<div class="wrapper_pages">
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">1</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">2</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">3</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">4</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">5</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">6</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">1</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">2</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">3</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">4</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">5</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+				<div class="module__page_s">
+					<div class="small_pages"></div>
+					<div class="number">6</div>
+					<div class="delete_page">
+						<div class="icon">
+							<img src="img/delete_page.svg" alt="">
+						</div>
+						Delete page
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="module__page_s module__page_s_2">
+		<div class="small_pages">
+			<div class="icon">
+				<img src="img/add.svg" alt="">
+			</div>
+			<div class="title">Add new</div>
+		</div>
+	</div>
+</footer>
+
+<div id="success" class="white-popup mfp-hide">
+	<h4 class="title_h4">Success!</h4>
+	<div class="icon_p">
+		<img src="img/success.svg" alt="">
+	</div>
+	<p>This is an success message modal and lorem ipsum dolor sit amet</p>
+
+	<div class="wrapper__btn">
+		<a href="#" class="btn close_popup">Okay</a>
+	</div>
+</div>
+
+<div id="warning" class="white-popup mfp-hide">
+	<h4 class="title_h4">Warning</h4>
+	<div class="icon_p">
+		<img src="img/warning.svg" alt="">
+	</div>
+	<p>This is an success message modal and lorem ipsum dolor sit amet</p>
+
+	<div class="wrapper__btn">
+		<a href="#" class="btn close_popup">Okay</a>
+		<a href="#" class="cancel close_popup">Cancel</a>
+	</div>
+</div>
+
+<div id="form_modal" class="white-popup white-popup_2 mfp-hide">
+	<h4 class="title_h4">Form modal</h4>
+	<p>This is an form modal with some UI elements</p>
+
+	<label class="module__radio">
+		<input type="radio" name="privacy_policy" checked>
+		<span class="check"></span>
+		<span class="text">Radio ON</span>
+	</label>
+
+	<label class="module__check">
+		<input type="checkbox" name="privacy_policy" checked>
+		<span class="check"></span>
+		<span class="text">Checkbox ON</span>
+	</label>
+
+	<label class="module__radio">
+		<input type="radio" name="privacy_policy">
+		<span class="check"></span>
+		<span class="text">Radio OFF</span>
+	</label>
+
+	<label class="module__check">
+		<input type="checkbox" name="privacy_policy">
+		<span class="check"></span>
+		<span class="text">Checkbox OFF</span>
+	</label>
+
+	<div class="wrap_field">
+		<fieldset>
+			<label>Eyebrow</label>
+			<input type="text" class="input_def" placeholder="Input Field">
+		</fieldset>
+
+		<fieldset>
+			<label>Eyebrow</label>
+			<textarea class="textarea" placeholder="Text area"></textarea>
+		</fieldset>
+	</div>
+
+	<div class="wrapper__btn">
+		<a href="#" class="btn close_popup">Okay</a>
+		<a href="#" class="cancel close_popup">Cancel</a>
+	</div>
+</div>
+
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="libs/swiper/swiper-bundle.min.js"></script>
+<script src="libs/magnific-popup/jquery.magnific-popup.js"></script>
+<script src="libs/simplebar/simplebar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.js"></script>
+</body>
+</html>

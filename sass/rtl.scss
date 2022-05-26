@@ -1,0 +1,91 @@
+html {
+	direction: rtl;
+}
+
+.module__page_s {
+	margin-right: 0;
+	margin-left: 24px;
+}
+
+.module__page_s {
+	.delete_page {
+		.icon {
+			margin-right: 0;
+			margin-left: 4px;
+		}
+	}
+}
+
+.zoom {
+	right: 98%;
+	left: auto;
+}
+
+.page_name {
+	.icon {
+		margin-left: 0;
+		margin-right: 7px;
+	}
+}
+
+.item_menu {
+	.icon {
+		margin-left: 5px;
+		margin-right: 0;
+	}
+}
+
+.sub_menu {
+	right: 0;
+	left: auto;
+}
+
+.module__radio, .module__check {
+	.check {
+		margin-right: 0;
+		margin-left: 11px;
+	}
+}
+
+.wrap_nav_slider .swiper_btn {
+	&.b_prev .icon {
+		margin-right: 0;
+		margin-left: 4px;
+	}
+
+	&.b_next .icon {
+		margin-right: 4px;
+		margin-left: 0;
+	}
+}
+
+.select_def {
+	background-position: left 10px center;
+}
+
+.accordion__item .accordion__content .wrap_select .font_weight {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.module__text {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+input.clr-color {
+	margin: 15px 0 20px 20px !important;
+}
+
+.clr-preview {
+	margin: 15px 20px 20px 0 !important;
+}
+
+footer {
+	padding: 14px 42px 14px 28px;
+}
+
+.wrapper_page aside {
+	border-left: none;
+	border-right: 1px solid #d9dee2;
+}

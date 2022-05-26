@@ -1,0 +1,30 @@
+@import 'inc/default';
+@import 'inc/fonts';
+@import 'inc/vars';
+
+body {
+	color: $text;
+	font-size: $bodyfontsize;
+	font-family: $bodyfont;
+	background: #EEF1F3;
+	font-weight: 400;
+}
+
+@import 'layout';
+
+main {
+	position: relative;
+	overflow: hidden;
+}
+
+@import 'parts/header';
+
+@import 'parts/forms';
+@import 'parts/typography';
+@import 'parts/slider';
+@import 'parts/popup';
+@import 'parts/menu';
+
+@import 'parts/footer';
+
+@import 'media-extra';

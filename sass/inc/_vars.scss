@@ -1,0 +1,36 @@
+$text: #000;
+$main: #3c6;
+
+$bodyfontsize: 16px;
+$bodyfont: 'Mulish', sans-serif;
+$containerWidth: 1920px;
+
+@mixin desktop-md {
+	@media (max-width: $containerWidth) {
+		@content;
+	}
+}
+
+@mixin media-breakpoint-down-1200 {
+	@media (max-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin media-breakpoint-down-992 {
+	@media (max-width: 992px) {
+		@content;
+	}
+}
+
+@mixin media-breakpoint-down-768 {
+	@media (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin media-breakpoint-down-575 {
+	@media (max-width: 575px) {
+		@content;
+	}
+}
